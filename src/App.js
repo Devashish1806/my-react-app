@@ -1,21 +1,12 @@
 import { Fragment } from "react";
-// import Atm from "./components/Atm";
-import Navbar from "./components/Navbar";
-import UseState from "./components/basics/UseState";
-import UseEffect from "./components/basics/UseEffect";
-import UseReducer from "./components/basics/UseReducer";
-import UseMemo from "./components/basics/UseMemo";
-import UseCallback from "./components/basics/useCallback/UseCallback";
+// import Navbar from "./components/Navbar";
+import EmployeeTable from "./components/EmployeeTable";
 
 function App() {
   return (
     <Fragment>
-      <Navbar />
-      <UseState />
-      <UseEffect />
-      <UseReducer />
-      <UseMemo />
-      <UseCallback />
+      {/* <Navbar /> */}
+      <EmployeeTable />
     </Fragment>
   );
 }
